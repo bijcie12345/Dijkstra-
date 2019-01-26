@@ -55,7 +55,7 @@ public class Main {
         int values=-1;
         tabValues[tmp.getNumber()]=0;
         boolean flaga=true;
-        int l=0;
+
 
         while(nrPetli < lw) {   // petla wykonuje sie zawsze n^2
             tabValues[tmp.getNumber()]=-2;
@@ -73,11 +73,7 @@ public class Main {
                     flaga=false;
              }
             }
-            l++;
-            System.out.print(l+ "  ");
-            for(int i=0;i<tabValues.length;i++)
-                System.out.print(tabValues[i]);
-            System.out.println();
+
             flaga=true;
             tmp=tmpMin;
             nrPetli++;
